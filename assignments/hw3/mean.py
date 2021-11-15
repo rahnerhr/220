@@ -37,13 +37,13 @@ def main():
     sum_harmonic = 0
     geometric = 1
 
-    for values in range(number_of_values):
-        values = eval(input("Enter Value:"))
+    for value in range(number_of_values):
+        value = eval(input("Enter Value:"))
 
 # assign variables to the loop dependent aspects of the equations:
-        sum_rms += values ** 2
-        sum_harmonic += 1 / values
-        geometric = geometric * values
+        sum_rms += value ** 2
+        sum_harmonic += 1 / value
+        geometric = geometric * value
 
 
 # mean formulas
